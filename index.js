@@ -6,4 +6,6 @@ function markAsDone() {
     todos[count] = 'done - ' + todos[count];
     ++count;
   }
+  return todos;
 }
+
